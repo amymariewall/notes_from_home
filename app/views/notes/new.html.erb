@@ -1,0 +1,6 @@
+<%= form_with model: @note do |form| %>
+  <p>
+    <%= form.text_area :content, size: "70x5" %>
+  </p>
+  <p><%= form.submit "Send note" %></p>
+<% end %>
