@@ -1,7 +1,7 @@
-require 'rails_helper'
+require "rails_helper"
 
 RSpec.describe Note, type: :model do
-  it 'is valid' do
+  it "is valid" do
     expect(build(:note)).to be_valid
   end
 

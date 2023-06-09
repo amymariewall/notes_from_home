@@ -7,9 +7,8 @@ end
 
 ruby "3.0.5"
 
-
-
 gem "bootsnap", require: false
+gem "clearance"
 gem "cssbundling-rails"
 gem "honeybadger"
 gem "jsbundling-rails"
