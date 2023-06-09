@@ -42,6 +42,7 @@ group :test do
   gem "launchy"
   gem "timecop"
   gem "webmock"
+  gem "rails-controller-testing"
 end
 
 gem "suspenders", group: [:development, :test]
